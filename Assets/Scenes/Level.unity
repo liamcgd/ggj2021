@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 25120530}
   - component: {fileID: 25120529}
   - component: {fileID: 25120531}
+  - component: {fileID: 25120532}
   m_Layer: 6
   m_Name: Obstacle (7)
   m_TagString: Untagged
@@ -232,6 +233,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 0.8828125}
   m_EdgeRadius: 0
+--- !u!50 &25120532
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 25120528}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &145807259
 GameObject:
   m_ObjectHideFlags: 0
@@ -243,6 +265,7 @@ GameObject:
   - component: {fileID: 145807261}
   - component: {fileID: 145807260}
   - component: {fileID: 145807262}
+  - component: {fileID: 145807263}
   m_Layer: 6
   m_Name: Obstacle (6)
   m_TagString: Untagged
@@ -341,6 +364,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 0.8828125}
   m_EdgeRadius: 0
+--- !u!50 &145807263
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 145807259}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &210579976
 GameObject:
   m_ObjectHideFlags: 0
@@ -441,6 +485,7 @@ GameObject:
   - component: {fileID: 219894733}
   - component: {fileID: 219894732}
   - component: {fileID: 219894734}
+  - component: {fileID: 219894735}
   m_Layer: 6
   m_Name: Obstacle (11)
   m_TagString: Untagged
@@ -539,6 +584,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 0.8828125}
   m_EdgeRadius: 0
+--- !u!50 &219894735
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 219894731}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &235344416
 GameObject:
   m_ObjectHideFlags: 0
@@ -550,6 +616,7 @@ GameObject:
   - component: {fileID: 235344418}
   - component: {fileID: 235344417}
   - component: {fileID: 235344419}
+  - component: {fileID: 235344420}
   m_Layer: 6
   m_Name: Obstacle (13)
   m_TagString: Untagged
@@ -648,6 +715,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 0.8828125}
   m_EdgeRadius: 0
+--- !u!50 &235344420
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 235344416}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &408432388
 GameObject:
   m_ObjectHideFlags: 0
@@ -659,6 +747,7 @@ GameObject:
   - component: {fileID: 408432390}
   - component: {fileID: 408432389}
   - component: {fileID: 408432391}
+  - component: {fileID: 408432392}
   m_Layer: 6
   m_Name: Obstacle (15)
   m_TagString: Untagged
@@ -757,6 +846,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 0.8828125}
   m_EdgeRadius: 0
+--- !u!50 &408432392
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 408432388}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &443648081
 GameObject:
   m_ObjectHideFlags: 0
@@ -868,6 +978,7 @@ GameObject:
   - component: {fileID: 492672120}
   - component: {fileID: 492672119}
   - component: {fileID: 492672121}
+  - component: {fileID: 492672122}
   m_Layer: 6
   m_Name: Obstacle (12)
   m_TagString: Untagged
@@ -966,6 +1077,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 0.8828125}
   m_EdgeRadius: 0
+--- !u!50 &492672122
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 492672118}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &715510333
 GameObject:
   m_ObjectHideFlags: 0
@@ -977,6 +1109,7 @@ GameObject:
   - component: {fileID: 715510335}
   - component: {fileID: 715510334}
   - component: {fileID: 715510336}
+  - component: {fileID: 715510337}
   m_Layer: 6
   m_Name: Obstacle (1)
   m_TagString: Untagged
@@ -1075,6 +1208,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 0.8828125}
   m_EdgeRadius: 0
+--- !u!50 &715510337
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 715510333}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &819550665
 GameObject:
   m_ObjectHideFlags: 0
@@ -1086,6 +1240,7 @@ GameObject:
   - component: {fileID: 819550667}
   - component: {fileID: 819550666}
   - component: {fileID: 819550668}
+  - component: {fileID: 819550669}
   m_Layer: 6
   m_Name: Obstacle
   m_TagString: Untagged
@@ -1184,6 +1339,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 0.8828125}
   m_EdgeRadius: 0
+--- !u!50 &819550669
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 819550665}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1088449816
 GameObject:
   m_ObjectHideFlags: 0
@@ -1195,6 +1371,7 @@ GameObject:
   - component: {fileID: 1088449818}
   - component: {fileID: 1088449817}
   - component: {fileID: 1088449819}
+  - component: {fileID: 1088449820}
   m_Layer: 6
   m_Name: Obstacle (4)
   m_TagString: Untagged
@@ -1293,6 +1470,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 0.8828125}
   m_EdgeRadius: 0
+--- !u!50 &1088449820
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1088449816}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1115847524
 GameObject:
   m_ObjectHideFlags: 0
@@ -1304,6 +1502,7 @@ GameObject:
   - component: {fileID: 1115847526}
   - component: {fileID: 1115847525}
   - component: {fileID: 1115847527}
+  - component: {fileID: 1115847528}
   m_Layer: 6
   m_Name: Obstacle (8)
   m_TagString: Untagged
@@ -1402,6 +1601,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 0.8828125}
   m_EdgeRadius: 0
+--- !u!50 &1115847528
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1115847524}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1134795050
 GameObject:
   m_ObjectHideFlags: 0
@@ -1413,6 +1633,7 @@ GameObject:
   - component: {fileID: 1134795052}
   - component: {fileID: 1134795051}
   - component: {fileID: 1134795053}
+  - component: {fileID: 1134795054}
   m_Layer: 6
   m_Name: Obstacle (2)
   m_TagString: Untagged
@@ -1511,6 +1732,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 0.8828125}
   m_EdgeRadius: 0
+--- !u!50 &1134795054
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1134795050}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1222637578
 GameObject:
   m_ObjectHideFlags: 0
@@ -1522,6 +1764,7 @@ GameObject:
   - component: {fileID: 1222637580}
   - component: {fileID: 1222637579}
   - component: {fileID: 1222637581}
+  - component: {fileID: 1222637582}
   m_Layer: 6
   m_Name: Obstacle (14)
   m_TagString: Untagged
@@ -1620,6 +1863,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 0.8828125}
   m_EdgeRadius: 0
+--- !u!50 &1222637582
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1222637578}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1298015192
 GameObject:
   m_ObjectHideFlags: 0
@@ -1631,6 +1895,7 @@ GameObject:
   - component: {fileID: 1298015194}
   - component: {fileID: 1298015193}
   - component: {fileID: 1298015195}
+  - component: {fileID: 1298015196}
   m_Layer: 6
   m_Name: Obstacle (9)
   m_TagString: Untagged
@@ -1729,6 +1994,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 0.8828125}
   m_EdgeRadius: 0
+--- !u!50 &1298015196
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1298015192}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1362229043
 GameObject:
   m_ObjectHideFlags: 0
@@ -1740,6 +2026,7 @@ GameObject:
   - component: {fileID: 1362229045}
   - component: {fileID: 1362229044}
   - component: {fileID: 1362229046}
+  - component: {fileID: 1362229047}
   m_Layer: 6
   m_Name: Obstacle (5)
   m_TagString: Untagged
@@ -1838,6 +2125,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 0.8828125}
   m_EdgeRadius: 0
+--- !u!50 &1362229047
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1362229043}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1414312093
 GameObject:
   m_ObjectHideFlags: 0
@@ -1943,12 +2251,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 1
   data:
-    dataString: UEsDBBQAAAgIAABYIeyBHaxkTQIAAPMEAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQF1VMuS2jAQ/BVK55AyyyvklhiWzYGFWpLaiy/CGmMVsuTSY3kV/56RbGMvqZwQ0z2j7pmRr4RLU0JqlV5qzlaKAfneI/5MvvRa8AVOdK/kll+g4bxzZnNPooHzRi1XGB/4NKMKsJqnP+ReeHKEQSd5pnSxYHuIlbEGwxkVBhDSyvpsiaFrj5zwpz/zKWc8PU396YKnWdS74TEFaUG31IbY0CqWk6mgRQnMS27Jw4Y9HAeaRDM1I/o69tWVENzUWog9l8FrTEvj0AkSGKfoLQjwVnPg+9x6nd3kdZYZsLUoTc9zrrFFVVXyU1V9K6g5VMo+qHD+nskoiKpqrv6B+4MAZ1oVL821g8hfYXOeHt7oOaXGdvraDc8/63bySMWB7gS85yBf1VIrJxmCVjuf6gw8zdu/d2dxDumhjVdSH4Ku/P90vIdbMH+KBS92ofGjKrAVKrQ7zB40juYXCg6bYeoSGPUq/hj4TffdFaqBZ66NRah2Kb28nXLaU8ki9My7cTZWWkII16JLkFTY8wbL2McJPmCdax+QZ+ofS315jTVv4CElhFt+FD1AG3W8D8vk6rgCk6+dFVxCK9oDr9inWElZLVi3J03a1umMpp20vePs82qRKBsPp5OUMRgOgELUz6bZ7NtkkNLRbDKJhiMSdo9L9EnFphJatwenJtviEves+Yb0lpqWYdmZpsclvxSq03IuM7VNNYBcVxXuwkHjJfgs2YJxbNAWrOUyzJtcEyJUegCW3AslweniZDVN2ioJKfmHsj6SkDh8NBJyI7e/UEsDBBQAAAgIAABYIexDnaPZbQAAAHgAAAAJACQAbWV0YS5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0Bq1YqSy0qzszPU7JSMNEz0jM01VFQSi9KLMgoBooYgjilmSkgdrSSQZqpsblZckpKqrFhamKqgW6aeZqlhZlhcqKJpZmZgbGJUixQfUllQapfYm4qRE9AYklGWmZeSmZeup57UWaKO8hopdhaAFBLAQItABQAAAgIAABYIeyBHaxkTQIAAPMEAAALACQAAAAAAAAAAAAAAAAAAABncmFwaDAuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLAQItABQAAAgIAABYIexDnaPZbQAAAHgAAAAJACQAAAAAAAAAAAAAAJoCAABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwUGAAAAAAIAAgC4AAAAUgMAAAAA
+    dataString: UEsDBBQAAAgIAABYIewJXM0LSwIAAPQEAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQF1VE1z2jAQ/SuMzqVjwlfprTWE9EBgQjq5+KJYa6xBljz6CF/Df+9KtrFDJyfEvrer93ZXvhAuTQmpVXqpOVspBuRnj/gz+dZrwSc40p2SW36GhvPGmc09iQbOC7VcYXzg04wqwGqe/pI74ckRBp3kmdLFgu0gVsYaDGdUGEBIK+uzJYYuPXLEn/7Mp5zw9DD1pzOeZlHviscUpAXdUhtiQ6tYTqaCFiUwL7klDxv2cBxoEs3UjOj72FdXQnBTayH2VAavMS2NQydIYJyityDAW82B73LrdXaT11lmwNaiND3NucYWVVXJb1X1raBmXyn7oML5eyajIKqqufoP7g8CnGlVPDXXDiJ/hc15un+hp5Qa2+lrNzz/rNvJAxV7+i7gLQf5rJZaOckQtNr5VGfgYd7+vTmLc0j3bbySehd05dfT8R6uwfwxFrx4D40fVYGtUKHdYfagcTR/UHDYDFOXwKhX8dfAK911V6gGHrk2FqHapfTy3pXTnkoWoWfejbOx0hJ0t0IJkgp72mAdez/CO+zrrEfqX0t9e401j+AuJYRbfhTdQRt1uE3L5OqwApOvnRVcQttqDzxjo2IlZbVhXUtN2tbpjKadtJ3j7PNukSgbD6eTlDEYDoBC1M+m2ezHZJDS0WwyiYYjEpaPS/RJxaYSWrcHxybb4hIXrfmI9JaalmHbmaaHJT8XyrRMLjO1TTWAXFcVbsJB4yX4LtmCcWzQFqzlMgycXBIiVLoHltwKJcHp4mg1TdoqCSn5h7I+kpA4fDUSciXXf1BLAwQUAAAICAAAWCHsQ52j2W0AAAB4AAAACQAkAG1ldGEuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAatWKkstKs7Mz1OyUjDRM9IzNNVRUEovSizIKAaKGII4pZkpIHa0kkGaqbG5WXJKSqqxYWpiqoFumnmapYWZYXKiiaWZmYGxiVIsUH1JZUGqX2JuKkRPQGJJRlpmXkpmXrqee1FmijvIaKXYWgBQSwECLQAUAAAICAAAWCHsCVzNC0sCAAD0BAAACwAkAAAAAAAAAAAAAAAAAAAAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwECLQAUAAAICAAAWCHsQ52j2W0AAAB4AAAACQAkAAAAAAAAAAAAAACYAgAAbWV0YS5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0BUEsFBgAAAAACAAIAuAAAAFADAAAAAA==
     upgradeData: 
     file_cachedStartup: {fileID: 0}
     data_cachedStartup: 
     cacheStartup: 0
-  showNavGraphs: 0
+  showNavGraphs: 1
   showUnwalkableNodes: 1
   debugMode: 0
   debugFloor: 0
@@ -2009,6 +2317,7 @@ GameObject:
   - component: {fileID: 1567426570}
   - component: {fileID: 1567426569}
   - component: {fileID: 1567426571}
+  - component: {fileID: 1567426572}
   m_Layer: 6
   m_Name: Obstacle (3)
   m_TagString: Untagged
@@ -2107,6 +2416,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 0.8828125}
   m_EdgeRadius: 0
+--- !u!50 &1567426572
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1567426568}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!4 &2083463251 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2511555323364128901, guid: fa2b161f05a249d42abd311e0b167b4c, type: 3}
@@ -2123,6 +2453,7 @@ GameObject:
   - component: {fileID: 2136387231}
   - component: {fileID: 2136387230}
   - component: {fileID: 2136387232}
+  - component: {fileID: 2136387233}
   m_Layer: 6
   m_Name: Obstacle (10)
   m_TagString: Untagged
@@ -2221,6 +2552,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 0.8828125}
   m_EdgeRadius: 0
+--- !u!50 &2136387233
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2136387229}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1001 &1869497329843662118
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2234,11 +2586,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1869497331320406225, guid: 397d368cf93431541b7f8c0cd358c2ca, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -11.49
+      value: -6.81
       objectReference: {fileID: 0}
     - target: {fileID: 1869497331320406225, guid: 397d368cf93431541b7f8c0cd358c2ca, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.94
+      value: -3.3
       objectReference: {fileID: 0}
     - target: {fileID: 1869497331320406225, guid: 397d368cf93431541b7f8c0cd358c2ca, type: 3}
       propertyPath: m_LocalPosition.z

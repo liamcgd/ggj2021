@@ -96,8 +96,19 @@
                 },
                 {
                     "name": "",
+                    "id": "9ab273e3-576a-4d94-84c7-32b228cc93a8",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "aec7d0ab-731c-4f84-87fd-12a9c900a891",
-                    "path": "<Mouse>/leftButton",
+                    "path": "<Gamepad>/rightTrigger",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -129,8 +140,30 @@
                 },
                 {
                     "name": "",
+                    "id": "7cab38ab-eebb-42cc-9480-1c103b88a0a4",
+                    "path": "<Gamepad>/leftTrigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Dash",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "1df438b8-4d29-4d51-8faf-533527672472",
                     "path": "<Keyboard>/f",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Wave Attack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c7219632-fbbc-4881-9ad5-b29d17006db0",
+                    "path": "<Gamepad>/rightShoulder",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
