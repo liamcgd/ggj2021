@@ -22,6 +22,7 @@ public class Player : MonoBehaviour
     private float curBasicAttackCooldown = 0;
     private float curDashCooldown = 0;
     private bool dashThisFrame = false;
+    private bool dashing = false;
 
     // Start is called before the first frame update
     private void Start()
@@ -71,6 +72,8 @@ public class Player : MonoBehaviour
 
     private void Move()
     {
+        if (dashing) return;
+
         if (moveDir != Vector2.zero)
         {
             if (DOTween.IsTweening("Decel"))
@@ -89,8 +92,9 @@ public class Player : MonoBehaviour
             {
                 var newPosAfterDash = tr.position + moveDirV3 * dashDistance;
                 dashTrail.emitting = true;
+                dashing = true;
                 tr.DOMove(newPosAfterDash, 0.15f).OnComplete(
-                    delegate { dashTrail.emitting = false; });
+                    delegate { dashTrail.emitting = false; dashing = false; });
             }
         }
         else if (curMoveSpeed > 0 && !DOTween.IsTweening("Decel"))
