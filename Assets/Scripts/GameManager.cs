@@ -4,15 +4,26 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    private void Start()
+    private static GameManager instance;
+    public static GameManager Instance => instance;
+
+    [SerializeField] private TextLerper startingDialogue = default;
+
+    private void Awake()
     {
-        
+        if (instance == null)
+            instance = this;
+        else
+            Destroy(this);
     }
 
-    // Update is called once per frame
-    private void Update()
+    private void Start()
     {
-        
+        StartCoroutine(startingDialogue.Display());
+    }
+
+    public void StartGame()
+    {
+        Time.timeScale = 1;
     }
 }
