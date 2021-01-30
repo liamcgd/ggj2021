@@ -4670,6 +4670,7 @@ MonoBehaviour:
   - This... is an odd note. Learn a thing or two?| Where do I even start?
   - The beach!| We love hanging out at the beach!| Let's go!
   timePerLetter: 0.03
+  fade: {fileID: 641718278}
 --- !u!114 &290043117
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4796,6 +4797,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f4ca772900a3914eb41ba26e0e82d05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  startingDialogue: {fileID: 290043116}
 --- !u!4 &363904642
 Transform:
   m_ObjectHideFlags: 0
@@ -16645,7 +16647,7 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 641718274}
   m_Enabled: 1
-  m_Alpha: 0
+  m_Alpha: 1
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
