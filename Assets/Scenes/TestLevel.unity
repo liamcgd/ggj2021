@@ -2279,7 +2279,39 @@ MonoBehaviour:
     _MeshEdgeColor: {r: 0, g: 0, b: 0, a: 0.5}
     _AreaColors:
     - {r: 0, g: 0, b: 0, a: 0}
-  tagNames: []
+  tagNames:
+  - Basic Ground
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  - 11
+  - 12
+  - 13
+  - 14
+  - 15
+  - 16
+  - 17
+  - 18
+  - 19
+  - 20
+  - 21
+  - 22
+  - 23
+  - 24
+  - 25
+  - 26
+  - 27
+  - 28
+  - 29
+  - 30
+  - 31
   heuristic: 2
   heuristicScale: 1
   threadCount: 1
@@ -2580,6 +2612,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1869497330108141627, guid: 397d368cf93431541b7f8c0cd358c2ca, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1869497331320406225, guid: 397d368cf93431541b7f8c0cd358c2ca, type: 3}
       propertyPath: m_RootOrder
       value: 20
@@ -2610,18 +2646,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1869497331320406225, guid: 397d368cf93431541b7f8c0cd358c2ca, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1869497331320406225, guid: 397d368cf93431541b7f8c0cd358c2ca, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1869497331320406225, guid: 397d368cf93431541b7f8c0cd358c2ca, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1869497331320406225, guid: 397d368cf93431541b7f8c0cd358c2ca, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1869497331320406229, guid: 397d368cf93431541b7f8c0cd358c2ca, type: 3}
@@ -2693,6 +2717,10 @@ PrefabInstance:
       propertyPath: m_UIInputModule
       value: 
       objectReference: {fileID: 1414312094}
+    - target: {fileID: 2511555324927189161, guid: fa2b161f05a249d42abd311e0b167b4c, type: 3}
+      propertyPath: orthographic size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 2511555325418777928, guid: fa2b161f05a249d42abd311e0b167b4c, type: 3}
       propertyPath: ShapeModule.radius.value
       value: 0.7
@@ -2704,10 +2732,6 @@ PrefabInstance:
     - target: {fileID: 2511555325418777928, guid: fa2b161f05a249d42abd311e0b167b4c, type: 3}
       propertyPath: EmissionModule.rateOverTime.scalar
       value: 200
-      objectReference: {fileID: 0}
-    - target: {fileID: 2511555325418777928, guid: fa2b161f05a249d42abd311e0b167b4c, type: 3}
-      propertyPath: CollisionModule.collidesWith.m_Bits
-      value: 192
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fa2b161f05a249d42abd311e0b167b4c, type: 3}

@@ -17,6 +17,7 @@ public class Player : MonoBehaviour
     [SerializeField] private float dashCooldown = 1;
 
     private Transform tr;
+    private SpriteRenderer rend;
     private Vector2 moveDir = new Vector2();
     private float curMoveSpeed = 0;
     private float curBasicAttackCooldown = 0;
@@ -28,6 +29,7 @@ public class Player : MonoBehaviour
     private void Start()
     {
         tr = transform;
+        rend = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
@@ -85,6 +87,11 @@ public class Player : MonoBehaviour
             }
 
             var moveDirV3 = new Vector3(moveDir.x, moveDir.y, 0);
+
+            if (moveDirV3.x > 0)
+                rend.flipX = false;
+            else if (moveDirV3.x < 0)
+                rend.flipX = true;
 
             tr.position += moveDirV3 * Time.deltaTime * curMoveSpeed;
 
