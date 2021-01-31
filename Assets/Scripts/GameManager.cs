@@ -19,6 +19,7 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
+        Time.timeScale = 0;
         StartCoroutine(startingDialogue.Display());
     }
 

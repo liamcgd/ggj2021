@@ -6,6 +6,7 @@ using DG.Tweening;
 
 public class Player : MonoBehaviour
 {
+    [SerializeField] private PlayerData data = default;
     [SerializeField] private ParticleSystem basicAttack = default;
     [SerializeField] private TrailRenderer dashTrail = default;
     [SerializeField] private float basicAttackCooldown = 1;
@@ -30,6 +31,7 @@ public class Player : MonoBehaviour
     {
         tr = transform;
         rend = GetComponent<SpriteRenderer>();
+        rend.sprite = data.playerCharacter;
     }
 
     // Update is called once per frame
