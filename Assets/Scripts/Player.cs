@@ -23,6 +23,7 @@ public class Player : MonoBehaviour
     private float curMoveSpeed = 0;
     private float curBasicAttackCooldown = 0;
     private float curDashCooldown = 0;
+    private float healthRegenCooldown = 0;
     private bool dashThisFrame = false;
     private bool dashing = false;
 
@@ -31,13 +32,22 @@ public class Player : MonoBehaviour
     {
         tr = transform;
         rend = GetComponent<SpriteRenderer>();
-        rend.sprite = data.playerCharacter;
+        if (data.playerCharacter != null)
+            rend.sprite = data.playerCharacter;
     }
 
     // Update is called once per frame
     private void Update()
     {
         Move();
+
+        if (healthRegenCooldown > 0)
+            healthRegenCooldown -= Time.deltaTime;
+        else if (data.health.value < 1)
+        {
+            healthRegenCooldown = 0.4f;
+            data.health.value += 0.05f;
+        }
     }
 
     #region Input Registration
@@ -137,4 +147,10 @@ public class Player : MonoBehaviour
     }
 
     #endregion
+
+    public void TakeDamage(float damage)
+    {
+        data.health.value -= damage;
+        healthRegenCooldown = 5;
+    }
 }
