@@ -5039,6 +5039,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3539a70b9413cc4cbe7364509f377f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  data: {fileID: 11400000, guid: dbc127c0f09f2bb48b6889096a34cef3, type: 2}
   basicAttack: {fileID: 2511555325418777928}
   dashTrail: {fileID: 791063519230350593}
   basicAttackCooldown: 1
