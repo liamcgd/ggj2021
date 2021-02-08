@@ -7,14 +7,14 @@ using System.Linq;
 
 public class TextLerper : MonoBehaviour
 {
-    [System.Serializable] internal struct DialogueSet
+    [System.Serializable]
+    internal struct DialogueSet
     {
         [TextArea(5, 20)] public string[] dialogueLines;
     }
 
     [SerializeField] private DialogueSet[] dialogueSets = default;
     [SerializeField] private float timePerLetter = 0.1f;
-    [SerializeField] private CanvasGroup fade = default;
 
     private TextMeshProUGUI textbox;
 
@@ -25,9 +25,6 @@ public class TextLerper : MonoBehaviour
 
     public IEnumerator Display(int setIndex)
     {
-        if (fade.alpha == 0)
-            fade.DOFade(1, 1).SetUpdate(true);
-
         yield return new WaitForSecondsRealtime(1.5f);
 
         foreach (string dialogueSet in dialogueSets[setIndex].dialogueLines)
@@ -62,25 +59,18 @@ public class TextLerper : MonoBehaviour
 
             yield return new WaitForSecondsRealtime(1.5f);
 
+            textbox.DOFade(0, 2.5f).SetUpdate(true).OnComplete(delegate
+            {
+                textbox.text = "";
+                textbox.color = Color.white;
+            });
+
             if (dialogueSet != dialogueSets[setIndex].dialogueLines.Last())
             {
-                textbox.DOFade(0, 2.5f).SetUpdate(true).OnComplete(delegate
-                {
-                    textbox.text = "";
-                    textbox.color = Color.white;
-                });
                 yield return new WaitForSecondsRealtime(3);
             }
         }
 
-        fade.DOFade(0, 2.5f).SetUpdate(true).OnComplete(delegate
-        {
-            GameManager.Instance.StartNewWave();
-        });
-    }
-
-    public void EndDialogue()
-    {
-        fade.DOFade(0, 2.5f).SetUpdate(true);
+        StartCoroutine(GameManager.Instance.StartNewWave());
     }
 }
