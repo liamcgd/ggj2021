@@ -25494,7 +25494,7 @@ GameObject:
   - component: {fileID: 314591015}
   - component: {fileID: 314591014}
   m_Layer: 0
-  m_Name: Square
+  m_Name: Fade
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25609,9 +25609,9 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 85d033b36737c3e47b4aa124513cc6a4, type: 3}
   - {fileID: 21300000, guid: c87abeb8ac2995045873b70b7dabdb2b, type: 3}
   - {fileID: 21300000, guid: 03d94f86c46e3bc4fb914e56f6431675, type: 3}
-  hpBar: {fileID: 0}
+  hpBar: {fileID: 117630048}
   cam: {fileID: 713659112}
-  fade: {fileID: 0}
+  fade: {fileID: 314591014}
 --- !u!4 &363904642
 Transform:
   m_ObjectHideFlags: 0
